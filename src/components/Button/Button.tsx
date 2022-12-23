@@ -6,7 +6,7 @@ interface IPropsButton {
   background?: string;
   children?: string;
 }
-export const Button = ({
+export const ButtonComponent = ({
   width,
   height,
   background,

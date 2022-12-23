@@ -15,7 +15,13 @@ const GlobalStyle = createGlobalStyle`
     --background-footer:    #E1DCD5;
     --recent-received:      #F8F8F8;
     --red-bag:              #b90032;
+    --back-feat:            #D5B69A;
+    --gray-100:             #F5F6FA;
+    --gray-3:               #828282;
     --font-open-sans:       'Open Sans', sans-serif;
+    --font-oswald:          'Oswald', sans-serif;
+    --font-playfair:        "Playfair Display", serif;
+    
     
     
   }
@@ -25,6 +31,10 @@ const GlobalStyle = createGlobalStyle`
   box-sizing:  border-box;
   font-family: 'Inter', sans-serif;
   cursor: default;
+}
+body{
+  width: 100%;
+  overflow-x: hidden;
 }
 button, a, link, img{
   cursor: pointer;

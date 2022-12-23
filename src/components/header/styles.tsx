@@ -84,8 +84,11 @@ export const StyledSectionMid = styled.section`
 
         background-color: #e1dcd5;
         border: none;
-        color: #333333;
+        color: var(--gray-1);
         outline: none;
+        ::placeholder {
+          color: var(--gray-1);
+        }
 
         cursor: text;
       }

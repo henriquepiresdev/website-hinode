@@ -1,7 +1,7 @@
 import { StyledHeader, StyledSectionMid, StyledSectionTop } from "./styles";
 import { RiUserHeartLine } from "react-icons/ri";
-import logo from "../../images/logo.svg";
-import { FiRotateCcw, FiSearch } from "react-icons/fi";
+import logo from "../../assets/img/logo.svg";
+import { FiSearch } from "react-icons/fi";
 import { RiUserLine } from "react-icons/ri";
 import { BiShoppingBag } from "react-icons/bi";
 import { AiOutlineHeart } from "react-icons/ai";
