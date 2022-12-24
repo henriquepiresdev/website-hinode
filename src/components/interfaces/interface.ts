@@ -4,6 +4,8 @@ export interface ICardProps {
   avg: number;
   promoPrice?: number;
   price: number;
+  installment?: number;
+  quantify?: string;
 }
 export default interface IitemProps {
   item: ICardProps;

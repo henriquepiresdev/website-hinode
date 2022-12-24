@@ -1,4 +1,3 @@
-import { transitions } from "@mantine/core/lib/Transition/transitions";
 import styled from "styled-components";
 
 export const TitleDiv = styled.section`

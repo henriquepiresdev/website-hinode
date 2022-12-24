@@ -1,3 +1,4 @@
+import React from "react";
 import { useRef } from "react";
 import Autoplay from "embla-carousel-autoplay";
 import { Carousel } from "@mantine/carousel";
@@ -7,26 +8,21 @@ import { Container, DivFeature, TitleDiv } from "./styles";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import ITitleProps from "../interfaces/carroulsel.interface";
 import { Card } from "../Card";
+import { BigCard } from "../BigCard";
 
-export const CarrouselProducts = ({ title, list }: ITitleProps) => {
+export const DoubleCarrousel = ({ title, list }: ITitleProps) => {
   const newMap = list.map((item: ICardProps, index: number, array) => {
-    if (index === 0 || index === 3 || index === 7 || index === 11) {
-      if (index + 3 > list.length - 1) {
+    if (index === 0 || index === 2 || index === 4 || index === 6) {
+      if (index + 1 > list.length - 1) {
       } else {
         return (
           <Carousel.Slide>
             <DivFeature>
               <li key={index}>
-                <Card item={item} />
+                <BigCard item={item} />
               </li>
               <li key={index + 1}>
-                <Card item={array[index + 1]} />
-              </li>
-              <li key={index + 2}>
-                <Card item={array[index + 2]} />
-              </li>
-              <li key={index + 3}>
-                <Card item={array[index + 3]} />
+                <BigCard item={array[index + 1]} />
               </li>
             </DivFeature>
           </Carousel.Slide>
@@ -60,7 +56,7 @@ export const CarrouselProducts = ({ title, list }: ITitleProps) => {
             onMouseEnter={autoplay.current.stop}
             onMouseLeave={autoplay.current.reset}
             withIndicators
-            height={519}
+            height={915}
             previousControlIcon={<AiOutlineLeft size={50} />}
             nextControlIcon={<AiOutlineRight size={50} />}
             styles={{
