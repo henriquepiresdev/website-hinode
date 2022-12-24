@@ -3,6 +3,7 @@ import { CarrouselProducts } from "./components/CarrouselProducts";
 import { DeliveryInfo } from "./components/DeliveryInfo";
 import { Featured } from "./components/Featured";
 import { Header } from "./components/header";
+import { Interest } from "./components/Interest";
 import { bestSellers } from "./data";
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Header />
       <Featured />
       <DeliveryInfo />
-      <CarrouselProducts title={"Mais vendidos"} list={bestSellers} />
+      <CarrouselProducts title={"MAIS VENDIDOS"} list={bestSellers} />
+      <Interest title={"ISSO PODE SER DO SEU INTERESSE"} />
     </div>
   );
 }
