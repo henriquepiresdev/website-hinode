@@ -1,6 +1,6 @@
 import { ButtonComponent } from "../Button/";
 import { DivCard } from "./styles";
-import { IitemProps } from "../interfaces/interface";
+import IitemProps from "../interfaces/interface";
 import { AiOutlineHeart } from "react-icons/ai";
 import { Rating } from "@mantine/core";
 

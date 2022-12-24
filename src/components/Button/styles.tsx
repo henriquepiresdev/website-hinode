@@ -18,4 +18,13 @@ export const StyledButton = styled.button<IButtonProps>`
   border: 2px solid var(--color-orange);
   border: 2px solid ${(props) => props.color && `${props.color}`};
   cursor: pointer;
+  transition: 0.3s;
+  :hover {
+    color: #ffffff;
+    color: ${(props) => props.background && `${props.background}`};
+    background-color: var(--color-orange);
+    background-color: ${(props) => props.color && `${props.color}`};
+    border: var(--color-orange);
+    border: ${(props) => props.color && `${props.color}`};
+  }
 `;

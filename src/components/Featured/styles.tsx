@@ -52,6 +52,11 @@ export const DivFeature = styled.div`
     button {
       margin-top: 5px;
       border: 3px solid var(--white-1);
+      :hover {
+        border: 3px solid var(--back-feat);
+        background-color: white;
+        color: var(--back-feat);
+      }
     }
   }
 `;

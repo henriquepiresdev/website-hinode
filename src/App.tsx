@@ -7,11 +7,10 @@ import { bestSellers } from "./data";
 function App() {
   return (
     <div className="App">
-      {/* <Header />
+      <Header />
       <Featured />
       <DeliveryInfo />
-      <CarrouselProducts /> */}
-      <Card item={bestSellers[5]}></Card>
+      <CarrouselProducts title={"Mais vendidos"} list={bestSellers} />
     </div>
   );
 }

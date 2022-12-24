@@ -43,6 +43,7 @@ export const DivCard = styled.div`
       display: flex;
       flex-direction: row;
       height: 15px;
+      overflow: hidden;
     }
     .actual-price {
       font-family: var(--font-oswald);

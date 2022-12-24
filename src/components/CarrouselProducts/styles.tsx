@@ -43,6 +43,7 @@ export const TitleDiv = styled.section`
 `;
 
 export const Container = styled.div`
+  list-style: none;
   width: 100%;
   height: 519px;
   display: flex;
@@ -65,6 +66,9 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .mantine-Carousel-indicators button {
+    background-color: var(--gold);
   }
 `;
 
