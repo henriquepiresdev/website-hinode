@@ -5,6 +5,10 @@ interface ICarroouselProps {
 export const BackgroundDiv = styled.div`
   background-color: ${(props: ICarroouselProps) =>
     props.back ? "var(--recent-received)" : "var(--white-1)"};
+  .Container-figure {
+    background-color: ${(props: ICarroouselProps) =>
+      props.back ? "var(--white-1)" : "var(--recent-received)"};
+  }
 `;
 export const TitleDiv = styled.section`
   margin: 0 auto;
@@ -97,4 +101,9 @@ export const DivFeature = styled.div`
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  .heart {
+    svg {
+      cursor: pointer;
+    }
+  }
 `;
