@@ -65,5 +65,8 @@
   },
   "devDependencies": {
     "@types/styled-components": "^5.1.26"
+  },
+  "resolutions": {
+    "@babel/plugin-transform-block-scoping": "7.20.5"
   }
 }
