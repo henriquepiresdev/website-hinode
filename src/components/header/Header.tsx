@@ -1,6 +1,5 @@
 import { StyledHeader, StyledSectionMid, StyledSectionTop } from "./styles";
 import { RiUserHeartLine } from "react-icons/ri";
-import logo from "../../assets/img/logo.svg";
 import { FiSearch } from "react-icons/fi";
 import { RiUserLine } from "react-icons/ri";
 import { BiShoppingBag } from "react-icons/bi";
@@ -32,7 +31,7 @@ export const Header = () => {
       <StyledSectionMid>
         <div className="Container">
           <figure>
-            <img src={logo} alt="Logotipo da hinode" />
+            <img src="/images/logo.svg" alt="Logotipo da hinode" />
           </figure>
           <div className="Container-mid">
             <div className="div-input">

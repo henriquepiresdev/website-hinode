@@ -3,7 +3,6 @@ import { ButtonComponent } from "../Button";
 import { StyledFooter } from "./styles";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { GrFacebookOption, GrInstagram } from "react-icons/gr";
-import footerImg from "../../assets/img/footer.jpg";
 
 export const Footer = () => {
   return (
@@ -110,7 +109,7 @@ export const Footer = () => {
       </div>
       <div id="white-div">
         <figure>
-          <img src={footerImg} alt="" />
+          <img src="/images/footer.jpg" alt="" />
         </figure>
       </div>
     </StyledFooter>

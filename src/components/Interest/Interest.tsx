@@ -1,9 +1,5 @@
 import ITitleInterestProps from "../interfaces/interest.interface";
 import { AiOutlineEye } from "react-icons/ai";
-import image1 from "../../assets/img/interest/image-interest-1.jpg";
-import image2 from "../../assets/img/interest/image-interest-2.jpg";
-import image3 from "../../assets/img/interest/image-interest-3.jpg";
-import image4 from "../../assets/img/interest/image-interest-4.jpg";
 import { Container, TitleDiv } from "./styles";
 
 export const Interest = ({ title }: ITitleInterestProps) => {
@@ -23,7 +19,7 @@ export const Interest = ({ title }: ITitleInterestProps) => {
           <div className="interest-cards">
             <figure>
               <img
-                src={image1}
+                src="/images/interest/image-interest-1.jpg"
                 alt="image de ilustração para o caminho de maquiagens"
               />
             </figure>
@@ -35,7 +31,7 @@ export const Interest = ({ title }: ITitleInterestProps) => {
           <div className="interest-cards">
             <figure>
               <img
-                src={image2}
+                src="/images/interest/image-interest-2.jpg"
                 alt="image de ilustração para o caminho de maquiagens"
               />
             </figure>
@@ -47,7 +43,7 @@ export const Interest = ({ title }: ITitleInterestProps) => {
           <div className="interest-cards">
             <figure>
               <img
-                src={image3}
+                src="/images/interest/image-interest-3.jpg"
                 alt="image de ilustração para o caminho de maquiagens"
               />
             </figure>
@@ -59,7 +55,7 @@ export const Interest = ({ title }: ITitleInterestProps) => {
           <div className="interest-cards">
             <figure>
               <img
-                src={image4}
+                src="/images/interest/image-interest-4.jpg"
                 alt="image de ilustração para o caminho de maquiagens"
               />
             </figure>

@@ -1,4 +1,3 @@
-import React from "react";
 import { useRef } from "react";
 import Autoplay from "embla-carousel-autoplay";
 import { Carousel } from "@mantine/carousel";
@@ -7,7 +6,6 @@ import IitemProps, { ICardProps } from "../interfaces/interface";
 import { Container, DivFeature, TitleDiv } from "./styles";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import ITitleProps from "../interfaces/carroulsel.interface";
-import { Card } from "../Card";
 import { BigCard } from "../BigCard";
 
 export const DoubleCarrousel = ({ title, list }: ITitleProps) => {
@@ -16,12 +14,12 @@ export const DoubleCarrousel = ({ title, list }: ITitleProps) => {
       if (index + 1 > list.length - 1) {
       } else {
         return (
-          <Carousel.Slide>
+          <Carousel.Slide key={index}>
             <DivFeature>
-              <li key={index}>
+              <li>
                 <BigCard item={item} />
               </li>
-              <li key={index + 1}>
+              <li>
                 <BigCard item={array[index + 1]} />
               </li>
             </DivFeature>

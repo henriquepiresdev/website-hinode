@@ -1,7 +1,6 @@
 import { useRef } from "react";
 import Autoplay from "embla-carousel-autoplay";
 import { Carousel } from "@mantine/carousel";
-import feature from "../../../src/assets/img/feature.png";
 import { Container, DivFeature } from "./styles";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import { ButtonComponent } from "../Button";
@@ -30,7 +29,7 @@ export const Featured = () => {
       >
         <Carousel.Slide>
           <DivFeature>
-            <img src={feature} alt="" />
+            <img src="/images/feature.png" alt="" />
             <div>
               <h2>Base Líquida DAZZLE</h2>
               <ButtonComponent
@@ -45,7 +44,7 @@ export const Featured = () => {
         </Carousel.Slide>
         <Carousel.Slide>
           <DivFeature>
-            <img src={feature} alt="" />
+            <img src="/images/feature.png" alt="" />
             <div>
               <h2>Base Líquida DAZZLE</h2>
               <ButtonComponent
@@ -60,7 +59,7 @@ export const Featured = () => {
         </Carousel.Slide>
         <Carousel.Slide>
           <DivFeature>
-            <img src={feature} alt="" />
+            <img src="/images/feature.png" alt="" />
             <div>
               <h2>Base Líquida DAZZLE</h2>
               <ButtonComponent

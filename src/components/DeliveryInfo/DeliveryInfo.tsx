@@ -1,4 +1,3 @@
-import React from "react";
 import { RiBankCard2Line } from "react-icons/ri";
 import { RiTruckLine } from "react-icons/ri";
 import { FaDropbox } from "react-icons/fa";

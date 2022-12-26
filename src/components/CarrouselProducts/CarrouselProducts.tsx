@@ -2,7 +2,7 @@ import { useRef } from "react";
 import Autoplay from "embla-carousel-autoplay";
 import { Carousel } from "@mantine/carousel";
 import { AiOutlineEye } from "react-icons/ai";
-import IitemProps, { ICardProps } from "../interfaces/interface";
+import { ICardProps } from "../interfaces/interface";
 import { BackgroundDiv, Container, DivFeature, TitleDiv } from "./styles";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import ITitleProps from "../interfaces/carroulsel.interface";
@@ -14,18 +14,18 @@ export const CarrouselProducts = ({ title, list, back }: ITitleProps) => {
       if (index + 3 > list.length - 1) {
       } else {
         return (
-          <Carousel.Slide>
+          <Carousel.Slide key={index}>
             <DivFeature>
-              <li key={index}>
+              <li>
                 <Card item={item} />
               </li>
-              <li key={index + 1}>
+              <li>
                 <Card item={array[index + 1]} />
               </li>
-              <li key={index + 2}>
+              <li>
                 <Card item={array[index + 2]} />
               </li>
-              <li key={index + 3}>
+              <li>
                 <Card item={array[index + 3]} />
               </li>
             </DivFeature>
