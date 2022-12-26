@@ -54,7 +54,7 @@ export const DoubleCarrousel = ({ title, list }: ITitleProps) => {
             onMouseEnter={autoplay.current.stop}
             onMouseLeave={autoplay.current.reset}
             withIndicators
-            height={915}
+            height={945}
             previousControlIcon={<AiOutlineLeft size={50} />}
             nextControlIcon={<AiOutlineRight size={50} />}
             styles={{

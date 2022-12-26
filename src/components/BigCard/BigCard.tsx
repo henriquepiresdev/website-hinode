@@ -25,7 +25,7 @@ export const BigCard = ({ item }: IitemProps) => {
       </div>
       <div className="DivPrice">
         <h3>{item.title}</h3>
-        <h3>{item.quantify}</h3>
+        <h3>{item.quantity}</h3>
         <Rating value={item?.avg} readOnly color={"cyan"} className="stars" />
         <p className="actual-price">{formatBrl(item.price)}</p>
         <p id="installment">em até 2x de {formatBrl(item.installment!)}</p>

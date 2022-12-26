@@ -12,12 +12,24 @@ export const DivCard = styled.div`
     align-items: center;
     justify-content: center;
     background-color: var(--dark-white-f7);
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 90%;
+      }
+    }
     .heart {
       height: 90%;
       align-items: flex-start;
       justify-content: flex-start;
       svg {
+        position: relative;
+        z-index: 1;
+        right: 10px;
         width: 21px;
+        height: 21px;
       }
     }
   }
@@ -27,7 +39,8 @@ export const DivCard = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    h3 {
+    h4 {
+      margin-top: 2px;
       font-family: var(--font-oswald);
       font-size: 17px;
       font-weight: 400;

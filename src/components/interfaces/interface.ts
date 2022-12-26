@@ -5,7 +5,7 @@ export interface ICardProps {
   promoPrice?: number;
   price: number;
   installment?: number;
-  quantify?: string;
+  quantity?: string;
 }
 export default interface IitemProps {
   item: ICardProps;

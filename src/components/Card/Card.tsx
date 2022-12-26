@@ -28,7 +28,11 @@ export const Card = ({ item }: IitemProps) => {
         </div>
       </div>
       <div>
-        <h4>{item.title}</h4>
+        <h4>
+          {item.title}
+          <br />
+          {item.quantity}
+        </h4>
         <Rating value={item?.avg} readOnly color={"cyan"} className="stars" />
         {item.promoPrice ? (
           <p className="promo">{formatBrl(item.promoPrice)}</p>

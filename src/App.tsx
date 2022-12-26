@@ -6,7 +6,17 @@ import { Footer } from "./components/footer";
 import { Header } from "./components/header";
 import { Highlight } from "./components/Highlight";
 import { Interest } from "./components/Interest";
-import { bestSellers, perfumes } from "./data";
+import {
+  bestSellers,
+  perfumes,
+  mostDesejable,
+  life,
+  bodyBath,
+  bodyBath2,
+  fragrances,
+  fragrances2,
+  recentReceived,
+} from "./data";
 function App() {
   return (
     <div className="App">
@@ -16,6 +26,8 @@ function App() {
       <CarrouselProducts title={"MAIS VENDIDOS"} list={bestSellers} />
       <Interest title={"ISSO PODE SER DO SEU INTERESSE"} />
       <DoubleCarrousel list={perfumes} />
+      <CarrouselProducts title={"OS MAIS DESEJADOS"} list={mostDesejable} />
+      <CarrouselProducts title={"VIDA SAUDÁVEL"} list={life} />
       <Highlight
         slice={false}
         image="./images/bath-images/woman-bath.jpg"
@@ -27,8 +39,8 @@ function App() {
       "
         contentButton="CONHEÇA NOSSOS PRODUTOS"
       />
-      <CarrouselProducts title={"CORPO E BANHO"} list={bestSellers} />
-      <CarrouselProducts list={bestSellers} />
+      <CarrouselProducts title={"CORPO E BANHO"} list={bodyBath} />
+      <CarrouselProducts list={bodyBath2} />
       <Highlight
         slice={true}
         image="./images/empire/image-empire.jpg"
@@ -38,11 +50,11 @@ function App() {
       "
         contentButton="CONHEÇA NOSSOS PRODUTOS"
       />
-      <CarrouselProducts title={"FRAGRÂNCIAS"} list={bestSellers} />
-      <CarrouselProducts list={bestSellers} />
+      <CarrouselProducts title={"FRAGRÂNCIAS"} list={fragrances} />
+      <CarrouselProducts list={fragrances2} />
       <CarrouselProducts
         title={"ACABARAM DE CHEGAR"}
-        list={bestSellers}
+        list={recentReceived}
         back={true}
       />
       <Footer />
