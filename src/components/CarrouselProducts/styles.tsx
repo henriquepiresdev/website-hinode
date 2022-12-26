@@ -1,5 +1,11 @@
 import styled from "styled-components";
-
+interface ICarroouselProps {
+  back?: boolean;
+}
+export const BackgroundDiv = styled.div`
+  background-color: ${(props: ICarroouselProps) =>
+    props.back ? "var(--recent-received)" : "var(--white-1)"};
+`;
 export const TitleDiv = styled.section`
   margin: 0 auto;
   margin-top: 95px;
@@ -42,7 +48,7 @@ export const TitleDiv = styled.section`
   }
 `;
 
-export const Container = styled.div`
+export const Container = styled.section`
   list-style: none;
   width: 100%;
   height: 519px;
