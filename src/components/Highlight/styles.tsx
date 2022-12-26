@@ -4,8 +4,9 @@ interface IIsSlice {
 }
 export const SectionHighlight = styled.section`
   background-color: var(--dark-white-f7);
-  margin-top: 93px;
+  margin: 150px auto;
   width: 100%;
+  max-width: 1700px;
   height: 813px;
   article {
     width: 491px;
@@ -32,6 +33,12 @@ export const SectionHighlight = styled.section`
         font-weight: 400;
         font-size: 24px;
         line-height: 137.69%;
+        figure {
+          img {
+            width: 100%;
+            height: 813px;
+          }
+        }
       }
     }
   }
