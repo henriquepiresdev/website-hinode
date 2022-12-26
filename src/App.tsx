@@ -1,9 +1,8 @@
-import { BigCard } from "./components/BigCard";
-import { Card } from "./components/Card";
 import { CarrouselProducts } from "./components/CarrouselProducts";
 import { DeliveryInfo } from "./components/DeliveryInfo";
 import { DoubleCarrousel } from "./components/DoubleCarrousel";
 import { Featured } from "./components/Featured";
+import { Footer } from "./components/footer";
 import { Header } from "./components/header";
 import { Highlight } from "./components/Highlight";
 import { Interest } from "./components/Interest";
@@ -46,6 +45,7 @@ function App() {
         list={bestSellers}
         back={true}
       />
+      <Footer />
     </div>
   );
 }

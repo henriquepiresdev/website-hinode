@@ -1,6 +1,10 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+@font-face {
+        font-family: 'Aktiv Grotesk Ex';
+        src: url('/fonts/Aktiv Grotesk Ex/Aktiv Grotesk Ex.ttf') format('truetype');
+    }
 :root{
     --white-1:              #FFFFFF;
     --main-background-color:#E5E5E5;
@@ -31,6 +35,7 @@ const GlobalStyle = createGlobalStyle`
   box-sizing:  border-box;
   font-family: 'Inter', sans-serif;
   cursor: default;
+  list-style: none;
 }
 body{
   width: 100%;

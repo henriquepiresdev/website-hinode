@@ -60,7 +60,7 @@ export const CarrouselProducts = ({ title, list, back }: ITitleProps) => {
             // onMouseEnter={autoplay.current.stop}
             // onMouseLeave={autoplay.current.reset}
             withIndicators
-            height={519}
+            height={549}
             previousControlIcon={<AiOutlineLeft size={50} />}
             nextControlIcon={<AiOutlineRight size={50} />}
             styles={{

@@ -46,7 +46,7 @@ export const DivCard = styled.div`
       overflow: hidden;
     }
     .actual-price {
-      font-family: var(--font-oswald);
+      font-family: "Aktiv Grotesk Ex";
       text-transform: uppercase;
       font-size: 22px;
       font-weight: 700;

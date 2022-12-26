@@ -74,13 +74,14 @@ export const Container = styled.section`
     align-items: center;
   }
   .mantine-Carousel-indicators button {
+    padding-bottom: 10px;
     background-color: var(--gold);
   }
 `;
 
 export const DivFeature = styled.div`
   width: 1141px;
-  height: 519px;
+  height: 540px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;

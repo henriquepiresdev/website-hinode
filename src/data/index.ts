@@ -10,14 +10,12 @@ export const bestSellers = [
     img: "./images/firstCarrousel/base.svg",
     title: "Base Líquida Hyaluronic Hydra Dazzle Escuro 2 - 500g",
     avg: 4,
-    promoPrice: 100.0,
     price: 89.9,
   },
   {
     img: "./images/firstCarrousel/grace.svg",
     title: "Grace La Rose Sublime Deo Colônia Pocket 15ml",
     avg: 4,
-    promoPrice: 100.0,
     price: 39.9,
   },
   {
