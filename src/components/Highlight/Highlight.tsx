@@ -14,7 +14,7 @@ export const Highlight = ({
     <SectionHighlight slice={slice}>
       <div>
         <figure>
-          <img src={image} alt="" />
+          <img src={image} alt="imagem de ilustração da sessão" />
         </figure>
         <article>
           <div className="title">

@@ -20,7 +20,7 @@ export const Interest = ({ title }: ITitleInterestProps) => {
             <figure>
               <img
                 src="/images/interest/image-interest-1.jpg"
-                alt="image de ilustração para o caminho de maquiagens"
+                alt="imagem de ilustração para o caminho de maquiagens"
               />
             </figure>
             <div className="text-translate">
@@ -32,7 +32,7 @@ export const Interest = ({ title }: ITitleInterestProps) => {
             <figure>
               <img
                 src="/images/interest/image-interest-2.jpg"
-                alt="image de ilustração para o caminho de maquiagens"
+                alt="imagem de ilustração mulher com perfume"
               />
             </figure>
             <div className="text-translate">
@@ -44,7 +44,7 @@ export const Interest = ({ title }: ITitleInterestProps) => {
             <figure>
               <img
                 src="/images/interest/image-interest-3.jpg"
-                alt="image de ilustração para o caminho de maquiagens"
+                alt="imagem de ilustração homem tomando shake de proteína"
               />
             </figure>
             <div id="energy-translate" className="energy">
@@ -56,7 +56,7 @@ export const Interest = ({ title }: ITitleInterestProps) => {
             <figure>
               <img
                 src="/images/interest/image-interest-4.jpg"
-                alt="image de ilustração para o caminho de maquiagens"
+                alt="imagem de ilustração passando creme na mão"
               />
             </figure>
             <div className="text-translate">

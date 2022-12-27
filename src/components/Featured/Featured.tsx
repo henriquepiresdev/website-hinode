@@ -29,7 +29,10 @@ export const Featured = () => {
       >
         <Carousel.Slide>
           <DivFeature>
-            <img src="/images/feature.png" alt="" />
+            <img
+              src="/images/feature.png"
+              alt="imagem de uma modelo utilizando a Base líquida Dazzle"
+            />
             <div>
               <h2>Base Líquida DAZZLE</h2>
               <ButtonComponent
@@ -44,7 +47,10 @@ export const Featured = () => {
         </Carousel.Slide>
         <Carousel.Slide>
           <DivFeature>
-            <img src="/images/feature.png" alt="" />
+            <img
+              src="/images/feature.png"
+              alt="imagem de uma modelo utilizando a Base líquida Dazzle"
+            />
             <div>
               <h2>Base Líquida DAZZLE</h2>
               <ButtonComponent
@@ -59,7 +65,10 @@ export const Featured = () => {
         </Carousel.Slide>
         <Carousel.Slide>
           <DivFeature>
-            <img src="/images/feature.png" alt="" />
+            <img
+              src="/images/feature.png"
+              alt="imagem de uma modelo utilizando a Base líquida Dazzle"
+            />
             <div>
               <h2>Base Líquida DAZZLE</h2>
               <ButtonComponent

@@ -54,7 +54,7 @@ export const DivCard = styled.div`
 
     h4 {
       margin-top: 2px;
-
+      height: 46px;
       font-family: var(--font-oswald);
       font-size: 17px;
       font-weight: 400;
@@ -62,14 +62,14 @@ export const DivCard = styled.div`
 
     .promo {
       font-family: var(--font-oswald);
-      font-size: 14px;
+      font-size: 12px;
       font-weight: 400;
       text-decoration-line: line-through;
       color: var(--gray-3);
     }
 
     .stars {
-      height: 15px;
+      height: 20px;
 
       display: flex;
       flex-direction: row;

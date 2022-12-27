@@ -642,8 +642,7 @@ export const recentReceived = [
   },
   {
     img: "./images/recent-received/3.svg",
-    title: `Erva Doce Sabonete Cremoso Facial Hinode`,
-    quantity: `250ml`,
+    title: `Erva Doce Sabonete Cremoso Facial Hinode - 250ml`,
     avg: 4,
     price: 33.4,
   },
@@ -669,8 +668,7 @@ export const recentReceived = [
   },
   {
     img: "./images/recent-received/3.svg",
-    title: `Erva Doce Sabonete Cremoso Facial Hinode`,
-    quantity: `250ml`,
+    title: `Erva Doce Sabonete Cremoso Facial Hinode - 250ml`,
     avg: 4,
     price: 33.4,
   },

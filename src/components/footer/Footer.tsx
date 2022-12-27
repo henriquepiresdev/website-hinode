@@ -109,7 +109,10 @@ export const Footer = () => {
       </div>
       <div id="white-div">
         <figure>
-          <img src="/images/footer.jpg" alt="" />
+          <img
+            src="/images/footer.jpg"
+            alt="imagem contendo o logotipo da hinode e também sobre regras de uso"
+          />
         </figure>
       </div>
     </StyledFooter>
