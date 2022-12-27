@@ -1,18 +1,14 @@
+import { ReactJSXElement } from "@emotion/react/types/jsx-namespace";
+import { IPropsButton } from "../interfaces/button.interface";
 import { StyledButton } from "./styles";
-interface IPropsButton {
-  width?: string;
-  height?: string;
-  color?: string;
-  background?: string;
-  children?: string;
-}
+
 export const ButtonComponent = ({
   width,
   height,
   background,
   color,
   children,
-}: IPropsButton) => {
+}: IPropsButton): ReactJSXElement => {
   return (
     <StyledButton
       width={width}

@@ -1,15 +1,18 @@
 import styled from "styled-components";
 
 export const StyledSectionTop = styled.section`
+  width: 100%;
+  min-width: 1441px;
+  height: 37px;
+
+  background-color: var(--recent-received);
+
+  display: flex;
+  justify-content: center;
+
   * {
     font-family: var(--font-open-sans);
   }
-  background-color: var(--recent-received);
-  width: 100%;
-  height: 37px;
-  display: flex;
-  justify-content: center;
-  box-shadow: 0px 2px 10px 2px gray;
 
   .Container-header-top {
     display: flex;
@@ -18,25 +21,30 @@ export const StyledSectionTop = styled.section`
     .Container-Icon {
       display: flex;
       align-items: center;
+
       svg {
         cursor: pointer;
         width: 16px;
         height: 16px;
       }
+
       a {
         margin: 0px 15px;
       }
+
       span {
         font-weight: 700;
         cursor: pointer;
       }
     }
+
     a {
       font-size: 10px;
-      color: var(--gray-1);
       font-weight: 400;
+      color: var(--gray-1);
     }
   }
+
   svg {
     cursor: pointer;
     :hover {
@@ -54,7 +62,8 @@ export const StyledSectionMid = styled.section`
   * {
     font-family: var(--font-open-sans);
   }
-  width: 100vw;
+  width: 100%;
+  min-width: 1441px;
   background-color: var(--white-1);
   justify-content: space-around;
   align-items: center;
@@ -186,7 +195,8 @@ export const StyledHeader = styled.header`
   * {
     font-family: var(--font-open-sans);
   }
-  width: 100vw;
+  width: 100%;
+  min-width: 1140px;
   height: 175px;
   background-color: var(--gold);
   display: flex;

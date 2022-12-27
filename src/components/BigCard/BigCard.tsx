@@ -1,9 +1,10 @@
 import { ButtonComponent } from "../Button/";
 import { DivCard } from "./styles";
-import IitemProps from "../interfaces/interface";
 import { Rating } from "@mantine/core";
+import { ReactJSXElement } from "@emotion/react/types/jsx-namespace";
+import IitemProps from "../interfaces/interface";
 
-export const BigCard = ({ item }: IitemProps) => {
+export const BigCard = ({ item }: IitemProps): ReactJSXElement => {
   const formatBrl = (price: number) => {
     const currency = Intl.NumberFormat("pt-BR", {
       style: "currency",

@@ -1,11 +1,14 @@
 import styled from "styled-components";
 
 export const DivCard = styled.div`
-  margin: 100px auto;
-  width: 557px;
   height: 781px;
+  width: 557px;
+
+  margin: 100px auto;
+
   display: flex;
   flex-direction: column;
+
   .Container-figure {
     * {
       margin: 0;
@@ -13,27 +16,34 @@ export const DivCard = styled.div`
     }
     height: 781px;
     width: 557px;
+
     display: flex;
     flex-direction: row;
+
     background-color: var(--dark-white-f7);
   }
   .DivPrice {
     width: 222px;
     height: 184px;
     padding: 10px;
+
     border-radius: 16px;
+
     position: relative;
     z-index: 1;
-    background-color: var(--white-1);
     bottom: 578px;
     left: 12px;
+
+    background-color: var(--white-1);
   }
   div {
-    padding-left: 2px;
     height: 128px;
+    padding-left: 2px;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
     h3 {
       font-family: var(--font-oswald);
       font-size: 17px;
@@ -47,9 +57,11 @@ export const DivCard = styled.div`
       color: var(--gray-3);
     }
     .stars {
+      height: 15px;
+
       display: flex;
       flex-direction: row;
-      height: 15px;
+
       overflow: hidden;
     }
     .actual-price {
@@ -57,10 +69,10 @@ export const DivCard = styled.div`
       text-transform: uppercase;
       font-size: 22px;
       font-weight: 700;
+      letter-spacing: -1px;
+
       display: flex;
       align-items: center;
-      letter-spacing: -1px;
-      text-transform: uppercase;
       span {
         font-size: 14px;
         font-weight: 700;
@@ -73,13 +85,16 @@ export const DivCard = styled.div`
     }
   }
   button {
+    width: 268px;
+    height: 68px;
+
     position: relative;
-    z-index: 2;
+    z-index: 1;
     bottom: 45px;
     left: 145px;
-    height: 68px;
-    width: 268px;
+
     border: 3px solid var(--gold);
+
     color: var(--gold);
     :hover {
       background-color: var(--gold);

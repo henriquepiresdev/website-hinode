@@ -1,11 +1,3 @@
-import { CarrouselProducts } from "./components/CarrouselProducts";
-import { DeliveryInfo } from "./components/DeliveryInfo";
-import { DoubleCarrousel } from "./components/DoubleCarrousel";
-import { Featured } from "./components/Featured";
-import { Footer } from "./components/footer";
-import { Header } from "./components/header";
-import { Highlight } from "./components/Highlight";
-import { Interest } from "./components/Interest";
 import {
   bestSellers,
   perfumes,
@@ -17,6 +9,14 @@ import {
   fragrances2,
   recentReceived,
 } from "./data";
+import { CarrouselProducts } from "./components/CarrouselProducts";
+import { DeliveryInfo } from "./components/DeliveryInfo";
+import { DoubleCarrousel } from "./components/DoubleCarrousel";
+import { Featured } from "./components/Featured";
+import { Footer } from "./components/footer";
+import { Header } from "./components/header";
+import { Highlight } from "./components/Highlight";
+import { Interest } from "./components/Interest";
 function App() {
   return (
     <div className="App">

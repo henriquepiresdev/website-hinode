@@ -17,9 +17,11 @@ export const DeliveryContainer = styled.section`
 
     display: flex;
     justify-content: space-between;
+
     div {
       height: 46px;
     }
+
     .size-icons {
       color: var(--gray-1);
       width: 50px;
@@ -35,17 +37,19 @@ export const DeliveryContainer = styled.section`
   }
 
   .CredCard {
+    width: 129px;
+
     display: flex;
     align-items: center;
     gap: 12px;
-    width: 129px;
   }
 
   .Delivery {
+    width: 270px;
+
     display: flex;
     align-items: center;
     gap: 12px;
-    width: 270px;
   }
 
   .Promo {

@@ -25,19 +25,30 @@ const GlobalStyle = createGlobalStyle`
     --font-open-sans:       'Open Sans', sans-serif;
     --font-oswald:          'Oswald', sans-serif;
     --font-playfair:        "Playfair Display", serif;
-    
+    --font-aktiv:           "Aktiv Grotesk Ex"
     
     
   }
 *{
   margin: 0;
   padding: 0;
+
   box-sizing:  border-box;
+  
   font-family: 'Inter', sans-serif;
+  
   cursor: default;
   list-style: none;
+  svg,button,a{
+    cursor: pointer;
+  }
+  button{
+    text-transform: uppercase;
+  }
 }
 body{
+  margin: 0 auto;
+  /* width pode ser fixado em 1441px também */
   width: 100%;
   overflow-x: hidden;
 }

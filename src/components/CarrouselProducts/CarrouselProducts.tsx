@@ -56,9 +56,9 @@ export const CarrouselProducts = ({ title, list, back }: ITitleProps) => {
           <Carousel
             loop
             sx={{ maxWidth: 1450 }}
-            // plugins={[autoplay.current]}
-            // onMouseEnter={autoplay.current.stop}
-            // onMouseLeave={autoplay.current.reset}
+            plugins={[autoplay.current]}
+            onMouseEnter={autoplay.current.stop}
+            onMouseLeave={autoplay.current.reset}
             withIndicators
             height={549}
             previousControlIcon={<AiOutlineLeft size={50} />}

@@ -67,18 +67,23 @@ export const Container = styled.div`
     align-items: center;
   }
   .mantine-Carousel-indicators button {
-    background-color: transparent;
     width: 10.5px;
     height: 10.5px;
+
+    background-color: transparent;
+
     border: 2px solid var(--gold);
-    transition: 1.5s;
     border-radius: 100%;
+
+    transition: 1.5s;
     &[data-active] {
       width: 22.5px;
       height: 12px;
+
+      background-color: var(--gold);
+
       border: 1px solid var(--gold);
       border-radius: 10px;
-      background-color: var(--gold);
     }
   }
 `;

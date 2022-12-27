@@ -49,7 +49,7 @@ export const DoubleCarrousel = ({ title, list }: ITitleProps) => {
         <div className="limit-size">
           <Carousel
             loop
-            sx={{ maxWidth: 1450 }}
+            sx={{ maxWidth: 1441 }}
             plugins={[autoplay.current]}
             onMouseEnter={autoplay.current.stop}
             onMouseLeave={autoplay.current.reset}

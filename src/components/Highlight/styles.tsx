@@ -3,20 +3,25 @@ interface IIsSlice {
   slice?: boolean;
 }
 export const SectionHighlight = styled.section`
-  background-color: var(--dark-white-f7);
-  margin: 150px auto;
   width: 100%;
-  max-width: 1700px;
   height: 813px;
+  max-width: 1700px;
+
+  margin: 150px auto;
+
+  background-color: var(--dark-white-f7);
+
   article {
     width: 491px;
     height: 384px;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
     .title {
       width: 412px;
+
       h2 {
         font-family: "Playfair Display";
         font-style: normal;
@@ -26,6 +31,7 @@ export const SectionHighlight = styled.section`
         letter-spacing: -3.54412px;
       }
     }
+
     div {
       p {
         font-family: "Roboto";
@@ -33,6 +39,7 @@ export const SectionHighlight = styled.section`
         font-weight: 400;
         font-size: 24px;
         line-height: 137.69%;
+
         figure {
           img {
             width: 100%;
@@ -48,8 +55,9 @@ export const SectionHighlight = styled.section`
     div {
     display: flex;
     align-items: center;
+    
     figure{
-      width: 776.36px;
+        width: 776.36px;
         height: 813px;
       img{
         width: 776.36px;
@@ -57,12 +65,14 @@ export const SectionHighlight = styled.section`
       }
     }
     article{
-      margin-left: 65px;
       width: 450px;
+      margin-left: 65px;
     }
     button{
       color: var(--white-1);
       background-color: var(--color-black);
+      border: 2px solid var(--black);
+    
       :hover{
         background-color: var(--gold);
         border: 2px solid var(--gold)

@@ -1,8 +1,8 @@
+import { AiOutlineHeart } from "react-icons/ai";
 import { ButtonComponent } from "../Button/";
 import { DivCard } from "./styles";
-import IitemProps from "../interfaces/interface";
-import { AiOutlineHeart } from "react-icons/ai";
 import { Rating } from "@mantine/core";
+import IitemProps from "../interfaces/interface";
 
 export const Card = ({ item }: IitemProps) => {
   const formatBrl = (price: number) => {
