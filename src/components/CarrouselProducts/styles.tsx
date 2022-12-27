@@ -2,7 +2,7 @@ import styled from "styled-components";
 interface ICarroouselProps {
   back?: boolean;
 }
-export const BackgroundDiv = styled.div`
+export const BackgroundDiv = styled.section`
   background-color: ${(props: ICarroouselProps) =>
     props.back ? "var(--recent-received)" : "var(--white-1)"};
   .Container-figure {

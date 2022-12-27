@@ -41,7 +41,7 @@ export const TitleDiv = styled.section`
   }
 `;
 
-export const Container = styled.div`
+export const Container = styled.section`
   list-style: none;
   width: 100%;
   height: 950px;
